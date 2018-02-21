@@ -4,9 +4,9 @@ void saudacao()
     printf("Boa noite");
 }
 
-int main()
+int main(void)
 {
     saudacao();
     
-    return 0;
+return 0;
 }
