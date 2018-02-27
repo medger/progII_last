@@ -18,6 +18,5 @@ int main()
 {
     int resp;
     resp=soma();
-    
 return 0;
 }
