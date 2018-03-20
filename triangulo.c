@@ -21,13 +21,12 @@ int main()
     scanf("%d",&l3);
     if(l2<0)
         l3=l3*(-1);
-    //printf("%d, %d, %d",l1,l2,l3);
-    
+    //printf("%d, %d, %d",l1,l2,l3); 
     resp=valida(l1,l2,l3);
     if(resp==1)
         printf("\nTriângulo inválido");
     else
-        printf("Triângulo válido");
+        printf("\nTriângulo válido");
 return 0;
 }
 
@@ -38,3 +37,12 @@ int valida(int n1, int n2, int n3)
     if(n1>(n2+n3)||n2>(n1+n3)||n3>(n1+n2))
         return 1;
 }
+
+/*
+Teste de mesa:
+main
+    L1=5
+    L2=4
+    L3=3
+    resp=valida(l1,l2,l3)
+    
