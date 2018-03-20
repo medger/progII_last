@@ -7,6 +7,5 @@ void saudacao()
 int main(void)
 {
     saudacao();
-    
 return 0;
 }
