@@ -39,10 +39,14 @@ int valida(int n1, int n2, int n3)
 }
 
 /*
-Teste de mesa:
-main
-    L1=5
-    L2=4
-    L3=3
-    resp=valida(l1,l2,l3)
-    
+Pilha:
+    return▔▔▔▔▔▔▔▔\
+    n3=l3                |               
+    n2=l2                |       
+    n1=l1                |    
+valida()                 |
+resp=valida(l1,l2,l3)<---/
+l3=2   
+    l2=2   
+    l1=5   
+main()
