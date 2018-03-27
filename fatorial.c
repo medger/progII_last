@@ -9,7 +9,6 @@ int main()
     resp=fat(num);
     
     printf("Calculo fatorial(%d) = %d", num,resp);
-
 }
 
 /*int fat (int num)
