@@ -6,34 +6,27 @@ b) Conte quantas letras a palavra possui;
 */
 #include<stdio.h>
 #include <string.h>
-int correcao(char frase[], int tam);
+int correcao(char palavra[], int tam);
 int main(void)
 {
     int tam=0;
-    char frase[tam];
+    char palavra[tam];
     int chama;
-    printf("Digite uma frase:\n");
-    scanf("%s", frase);
-    if(frase[tam]==' ')
-    {
-        frase[tam]=tam+1;
-    }
-    
-    tam=strlen(frase);
-    printf("%d\n", tam);//tamanho reconhecido
-    
-    chama=correcao(frase,tam);
+    printf("Digite uma palavra:\n");
+    scanf("%s", palavra);
+        tam=strlen(palavra);
+    printf("\nA palavra possui %d letras.", tam);//tamanho reconhecido
+    correcao(palavra,tam);
     
 return 0;
 }
-int correcao(char frase[], int tam)
+int correcao(char palavra[], int tam)
 {
     int i;
     for(i=0;i<tam;i++)
     {
-        if((frase[i]=='n'||frase[i]=='N')&&(frase[i+1]=='p'
-    ||frase[i+1]=='P')||(frase[i+1]=='b'||frase[i+1]=='B'))
-            frase[i]='m';
+        if((palavra[i]=='n'||palavra[i]=='N')&&(palavra[i+1]=='p'||palavra[i+1]=='P')||(palavra[i+1]=='b'||palavra[i+1]=='B'))
+            palavra[i]='m';
     }
-    printf("%s", frase);
+    printf("\nPalavra corrigida: %s", palavra);
 }

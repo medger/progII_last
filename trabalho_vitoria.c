@@ -36,14 +36,13 @@ float converteComodo (float comprimento, float largura)
 
 float convertePiso (float pcomprimento, float plargura)
 {   
-    float total=0,aux=0;
-    aux=pcomprimento*plargura; //converte CM para CM²
-    return aux;
+    pcomprimento*=plargura; //converte CM para CM²
+    return pcomprimento;
 }
 
 float quantidade(float comodo, float piso)
 {
     float aux=0;
-    aux=comodo/piso;
-    return aux;
+    comodo/=piso;
+    return comodo;
 }
