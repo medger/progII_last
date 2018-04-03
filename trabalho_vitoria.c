@@ -21,7 +21,7 @@ int main()
         printf("\n\nEntre com COMPRIMENTOxLARGURA do PISO em CENTÍMETROS:\n");
         scanf("%f%f", &pcomprimento,&plargura);
             piso=convertePiso(pcomprimento,plargura);
-            printf("Tamanho do piso de CM para M²: %.2f", piso);
+            printf("Tamanho do piso de CM para CM²: %.2f", piso);
             
             resp=quantidade(comodo,piso);
         printf("\nPrecisará de %.2f pisos para preencher o comodo", resp);
@@ -38,7 +38,6 @@ float convertePiso (float pcomprimento, float plargura)
 {   
     float total=0,aux=0;
     aux=pcomprimento*plargura; //converte CM para CM²
-    total=aux/10000; //converte CM² para M²
     return aux;
 }
 
