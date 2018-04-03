@@ -1,6 +1,6 @@
 /*
 Faça uma função que receba o tamanho de um cômodo em m² e o 
-tamanho do piso também em m² que será usado, e retorne a quantidade de pisos 
+tamanho do piso em cm² que será usado, e retorne a quantidade de pisos 
 que será preciso para preencher todo o chão.
 */
 #include<stdio.h>
@@ -24,7 +24,7 @@ int main()
             printf("Tamanho do piso de CM para M²: %.2f", piso);
             
             resp=quantidade(comodo,piso);
-            printf("\nPrecisará de %.2f pisos para preencher o comodo", resp);
+        printf("\nPrecisará de %.2f pisos para preencher o comodo", resp);
 return 0;
 }
 
@@ -33,13 +33,15 @@ float converteComodo (float comprimento, float largura)
     comprimento*=largura;
     return comprimento;
 }
+
 float convertePiso (float pcomprimento, float plargura)
 {   
-    float aux=0;
+    float total=0,aux=0;
     aux=pcomprimento*plargura; //converte CM para CM²
-    //aux/=10000; //converte CM² para M²
+    total=aux/10000; //converte CM² para M²
     return aux;
 }
+
 float quantidade(float comodo, float piso)
 {
     float aux=0;
