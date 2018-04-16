@@ -1,0 +1,63 @@
+ 1	Digite seu nome e o valor da av1 e av2, retornar seu nome em caixa alta e 
+ se foi aprovado ou não na matéria, considerando media 6.
+ 2	Fazer um programa que some duas matrizes 2X2 em função própria.
+ 3	Faça um programa que calcule o IMC e mostre se esta de acordo com a tabela.
+ 4	Faça um função para validar usuário e senha de usuário. caso senha esteja correta informe 
+ que " senha correta", caso contrário, " senha incorreta" 
+5	Faça uma função que diga se é melhor abastecer com gasolina ou álcool.
+ 6	Faça um programa que mostre o número de letras contidos na frase
+7	Crie um Programa em C para ler três nomes e imprimir na tela os três nomes na vertical, 
+porem um deve estar ao lado do outro. 
+8	Faça uma função para verificar se um ano é bissexto ou não. Utilize a regra: 
+Um ano bissexto é divisível por 4, mas não por 100, ou então se é divisível por 400. 
+Exemplo: 1988 é bissexto pois é divisível por 4 e não é por 100; 2000 é bissexto porque é divisível por 400. 
+9	faça uma função que receba 2 numeros positivos por parâmetro e retorne a soma dos N números inteiros existentes entre eles
+10	Faça uma função em C que leia e some até 3 numeros positivos, e diga se o numero resultante é primo
+11	Faça um programa que lê uma string e retorna a string invertida.
+12	Programa de recuperação de senha: Entra com o nome e retornar em caixa alta. 
+Inserir senha nova, pedir confirmação de senha, se corretar printar senha confirmada, se não, solicitar senha novamente. Com a senha confirmada, liberar opção de sacar dinheiro e informar o saldo antes e depois do saque.
+13	Faça uma calculadora em C com as opções de soma e subtração. 
+Ela deve possuir um menu para seleção.
+14	Faça uma Função por Referencia que converta um numero inteiro para binário.
+15	Escreva um  programa que lê do teclado uma string e imprima quantos caracteres dessa string são dígitos numéricos. 
+Por exemplo: ENTRADA: "Niterói, 22 de agosto de 2014" EXIBIR: A frase possui 6 dígitos numéricos! 
+"Sabendo que a formula para calcular o peso ideal é: para mulheres (62,1*altura)-44.7 e para homens (72.2*altura)-58
+16	Fazer um programa que utilize uma função que receba o sexo e a altura POR PAR METRO,e retorne o peso ideal."
+17	Crie uma função que receba três parâmetros(por valor), 'a', 'b' e 'c', 
+que são os coeficientes de uma equação do segundo grau e retorne o valor do delta, que é dado por "b² - 4ac".
+18	Faca uma função em C que transforme caracteres miniculos em maiusculos
+19	Faça uma função que receba o tamanho de um cômodo em m² e o tamanho do piso também em m² que será usado, 
+e retorne a quantidade de pisos que será preciso para preencher todo o chão.
+20	Crie uma função que receba 3 notas de um aluno como parâmetro, 
+descarte a menor nota e retorne a sua média! Se média maior igual 6 imprima aprovado, caso contrário reprovado! 
+21 Crie uma função que receba 3 numeros inteiros como parametro, representando horas, minutos e segundos. 
+Depois os converta em segundos e imprima o total de segundos
+22	Leia 2 palavras e 2 números inteiros. Leia o tamanho de cada palavra, some com os 2 números lidos e exiba na tela cada valor, separado. 
+Mostre na tela as 2 palavras ao contrario, e em ordem trocada(1ª no lugar da 2ª, e vice-versa). 
+Mostre o valor inicial dos numeros e o valor final, apos os calculos.
+23	Escreva um programa que começa pedindo um número N ao usuário e depois pede N números. 
+O programa deverá mostrar na tela todos esses números ordenados do menor para o maior. Escreva sua própria função de ordenação.
+24	Crie uma função que receba 2 números e retorne o maior valor.
+25	"Elabore uma função em passagem de parâmetro por valor que receba uma palavra e substitua cada ocorrência de ""n"" antes de ""p"" e ""b"" por ""m"", além disso: 
+ a) Fazer um programa que chame essa função;
+ b) Conte quantas letras a palavra possui;"
+26	Faça uma função chamada divisão que retorne a divisão inteira de dois números 
+inteiros passados por parâmetro e através de um parâmetro por referência, o resto da divisão.
+27	Faça uma função que receba 3 numeros inteiros e coloque-os em ordem crescente!
+28	Criar uma função em C chamada DADO(), onde ele gere um numero aleatório de 1 a 6?
+29	Faça um programa em C, que leia 2 strings e diz se elas são iguais ou não.
+30	Crie uma função que receba como parâmetro um valor inteiro e gere como saída n linhas com pontos de exclamação
+31	Faça um programa que em uma função receba 3 notas, verifique as duas maiores e mostra a média.
+32	Faça uma função que receba uma frase e retorne o número de letras do alfabeto usadas, sem considerar repetição, 
+e a quantidade de palavras na frase. 
+33	"Faça uma calculadora em ""c"" que leia dois números e o usuario tenha 7 funções
+(adição , subtração, multiplicação , divisão, fatorial , exponencial e radiação)
+possiveis para fazer operações com os dois numeros digitados."
+34	Faça uma função em C que receba uma cadeia de caracteres e um caractere como parâmetro e retorne a 
+quantidade desse caractere dentro da cadeia. Exemplo: "CASA" Caractere: "A"; Retorno:"2";
+35	TROQUE DOIS NÚMEROS USANDO CHAMADA POR REFERÊNCIA (ENDEREÇO) EM C
+36	faça um programa em c que leia duas frases e diga qual delas é maior e quantos caracteres cada uma delas tem
+37	"Crie um programa que leia x idades (inteiras), armazene -as e depois mostre-as.
+O valor de x será informado pelo usuário. Crie funções e procedimentos para realizar as tarefas. "
+38	Peça para o usuário entrar com uma temperatura em Celsius para descobrir sua equivalência em graus Fahrenheit. 
+Use a fórmula: Fahrenheit=1.8*Celsius+32
