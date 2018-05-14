@@ -5,6 +5,7 @@ int main()
     int x;
     x=10;
     printf("x=%d",x);
+    
     incrementa_um(&x);// & passa a referência da variavel
     
     printf("\nx=%d",x);

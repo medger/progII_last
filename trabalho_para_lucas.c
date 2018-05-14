@@ -7,7 +7,7 @@ b) Conte quantas letras a palavra possui;
 #include<stdio.h>
 #include <string.h>
 int correcao(char palavra[], int tam);
-int main(void)
+int main()
 {
     int tam=0;
     char palavra[tam];
